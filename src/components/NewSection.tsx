@@ -4,7 +4,7 @@ const NewSection = () => {
   return (
     <article
       id="new"
-      className="flex flex-col w-full items-center justify-center lg:justify-start lg:h-full"
+      className="flex flex-col w-full items-center justify-center my-5 lg:col-start-3 lg:my-0 lg:items-start lg:mb-10 "
     >
       <div className="bg-veryDarkBlue w-5/6">
         <div className="py-2 px-5">
