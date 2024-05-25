@@ -7,17 +7,11 @@ const App = () => {
   return (
     <>
       <Navbar openNav={open} changeState={() => setOpen(!open)} />
-        <main
-          className={
-            open
-              ? "bg-ververyDarkBlue  grid grid-cols-1 lg:grid lg:grid-cols-3"
-              : "opacity-100 grid grid-cols-1 lg:grid lg:grid-cols-3"
-          }
-        >
-          <MainSection />
-          <NewSection />
-          <Card />
-        </main>
+      <main className={"grid grid-cols-1 lg:grid lg:grid-cols-3"}>
+        <MainSection />
+        <NewSection />
+        <Card />
+      </main>
     </>
   );
 };
